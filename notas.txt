@@ -1,0 +1,15 @@
+Crear App de React
+
+1.- Ejecutar:
+        npx create-react-app counter-app
+
+2.- Tests
+        npm run test (ejecutar para correr las pruebas.)
+
+Enzyme: libreria de jest para hacer pruebas
+de componentes.
+
+Para instalar Enzyme en react17 ejecutar:
+        npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+
+Para no correr todas las pruebas la primera vez... npm test path/of/your/testfile.js -t "test name"
